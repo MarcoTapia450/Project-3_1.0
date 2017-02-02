@@ -4,12 +4,45 @@
    Case Problem 2
 
    Mountain Wheels Text and Color Style
-   Author: 
-   Date:   
+   Author:
+   Date:
 
    Filename:         mw_layout.css
    Supporting Files: none
 
 */
 
+body {
+  font: Tahoma, Geneva, sans-serif;
+}
 
+#articleheader h1 {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 7px;
+  text-align: center;
+
+}
+
+nav {
+  background-color: rgb(125, 120, 89);
+  line-height: 3em;
+  list-style-type: none;
+}
+
+li a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+nav ul:hover {
+  background-color: rgb(131, 121, 36);
+}
+
+nav ul li a:hover {
+    color: rgba(255, 255, 255, 1)
+}
+
+#leftsection p:first-child:first-line {
+
+}
